@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GroupView">
+        <attr name="viewType" format="enum">
+            <enum name="circle" value="1" />
+            <enum name="square" value="2" />
+        </attr>
+        <attr name="padding" format="dimension" />
+        <attr name="cornor" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ToggleButton">
+        <attr name="current_state" format="boolean"/>
+        <attr name="backgroundBitmap" format="reference"/>
+        <attr name="slideButton" format="reference" />
+    </declare-styleable>
+</resources>
