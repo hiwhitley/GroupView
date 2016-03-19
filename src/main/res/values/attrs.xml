@@ -9,4 +9,9 @@
         <attr name="cornor" format="dimension"/>
     </declare-styleable>
 
+    <declare-styleable name="ToggleButton">
+        <attr name="current_state" format="boolean"/>
+        <attr name="backgroundBitmap" format="reference"/>
+        <attr name="slideButton" format="reference" />
+    </declare-styleable>
 </resources>

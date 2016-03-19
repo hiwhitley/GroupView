@@ -116,12 +116,12 @@
         "source": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_on_mtrl.png",
-        "source": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\abc_btn_radio_on_mtrl.png"
-    },
-    {
         "merged": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_checkbox_checked_mtrl.png",
         "source": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\abc_btn_checkbox_checked_mtrl.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_on_mtrl.png",
+        "source": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\abc_btn_radio_on_mtrl.png"
     },
     {
         "merged": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_material.png",

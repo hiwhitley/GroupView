@@ -32,6 +32,10 @@
         "source": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\src\\main\\res\\layout\\main.xml"
+    },
+    {
         "merged": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_layout.xml"
     },
@@ -110,6 +114,10 @@
     {
         "merged": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "E:\\WorkSpace\\AndroidStudio\\HelloAndroid2\\groupview\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
