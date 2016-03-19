@@ -6,29 +6,39 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private GroupView mGroupView1;
-    private GroupView mGroupView2;
-    private int[] ids = new int[]{R.drawable.img1, R.drawable.img2,
-            R.drawable.img3, R.drawable.img4,R.drawable.img1, R.drawable.img2,
-            R.drawable.img3, R.drawable.img4,R.drawable.img1, R.drawable.img2,
-            R.drawable.img3, R.drawable.img4};
+    private GroupView mGroupView;
+    private List<Bitmap> bitmapList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.smart_main);
-        ArrayList<Bitmap> mBmps1 = new ArrayList<Bitmap>();
+        bitmapList = new ArrayList<Bitmap>();
 
-        for (int i = 0; i < 5; i++) {
-            mBmps1.add(BitmapFactory.decodeResource(getResources(),ids[i]));
-        }
+        bitmapList.add(BitmapFactory.decodeResource(getResources(), R.drawable.face));
+        mGroupView = (GroupView) findViewById(R.id.gv_face1);
+        mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
+        mGroupView = (GroupView) findViewById(R.id.gv_face2);
+        mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
+        mGroupView = (GroupView) findViewById(R.id.gv_face3);
+        mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
 
-        mGroupView1 = (GroupView) findViewById(R.id.gv_face2);
-        mGroupView1.setImageBitmaps(mBmps1.toArray(new Bitmap[mBmps1.size()]));
-        mGroupView2 = (GroupView) findViewById(R.id.gv_face3);
-        mGroupView2.setImageBitmaps(mBmps1.toArray(new Bitmap[mBmps1.size()]));
+        bitmapList.add(BitmapFactory.decodeResource(getResources(), R.drawable.face));
+        bitmapList.add(BitmapFactory.decodeResource(getResources(), R.drawable.face));
+        bitmapList.add(BitmapFactory.decodeResource(getResources(), R.drawable.face));
+
+        mGroupView = (GroupView) findViewById(R.id.gv_face4);
+        mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
+        mGroupView = (GroupView) findViewById(R.id.gv_face5);
+        mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
+
+        bitmapList.add(BitmapFactory.decodeResource(getResources(), R.drawable.face));
+        mGroupView = (GroupView) findViewById(R.id.gv_face6);
+        mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
+
     }
 }

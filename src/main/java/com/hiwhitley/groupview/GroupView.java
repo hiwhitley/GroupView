@@ -106,7 +106,6 @@ public class GroupView extends ImageView{
         // super.onDraw(canvas);
         Paint paint = new Paint();
         canvas.drawBitmap(createGroupFace(mViewType, mContext, mBitmaps),0,0,paint);
-        ;
     }
 
     public void setImageBitmaps(Bitmap[] bitmaps) {
@@ -189,10 +188,13 @@ public class GroupView extends ImageView{
         Canvas localCanvas = new Canvas(canvasBitmap);
         localCanvas.drawColor(Color.parseColor("#DDDFD4"));
         int colum = 0;
-        if (bitmapCount > 0 && bitmapCount < 5) {
+
+        if (bitmapCount > 1 && bitmapCount < 5) {
             colum = 2;
         } else if (bitmapCount > 4 && bitmapCount < 10) {
             colum = 3;
+        } else {
+            colum = 1;
         }
         float scale = 1.0F / colum;
         // 根据列数缩小

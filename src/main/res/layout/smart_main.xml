@@ -5,18 +5,66 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.hiwhitley.groupview.GroupView
-        android:id="@+id/gv_face2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:padding="5dp"
-        app:viewType="circle" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <com.hiwhitley.groupview.GroupView
-        android:layout_marginTop="20dp"
-        android:id="@+id/gv_face3"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:padding="5dp"
-        app:viewType="square" />
+        <com.hiwhitley.groupview.GroupView
+            android:id="@+id/gv_face1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            app:padding="5dp"
+            app:viewType="square" />
+
+        <com.hiwhitley.groupview.GroupView
+            android:id="@+id/gv_face2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cornor="20dp"
+            app:padding="5dp"
+            app:viewType="square" />
+
+        <com.hiwhitley.groupview.GroupView
+            android:id="@+id/gv_face3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:padding="5dp"
+            app:viewType="circle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.hiwhitley.groupview.GroupView
+            android:id="@+id/gv_face4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            app:padding="5dp"
+            app:viewType="square" />
+
+        <com.hiwhitley.groupview.GroupView
+            android:id="@+id/gv_face5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:padding="2dp"
+            app:viewType="circle" />
+
+        <com.hiwhitley.groupview.GroupView
+            android:id="@+id/gv_face6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:padding="2dp"
+            app:viewType="circle" />
+    </LinearLayout>
 </LinearLayout>
