@@ -1,2 +1,0 @@
-# GroupView
-QQ Avatar
