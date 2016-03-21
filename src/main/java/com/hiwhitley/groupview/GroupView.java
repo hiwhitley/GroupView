@@ -16,6 +16,7 @@ import android.util.TypedValue;
 import android.widget.ImageView;
 
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * Created by hiwhitley on 2016/3/10.
@@ -113,6 +114,10 @@ public class GroupView extends ImageView{
 
     public void setImageBitmaps(Bitmap[] bitmaps) {
         mBitmaps = bitmaps;
+    }
+
+    public void setImageBitmaps(List<Bitmap> bitmaps) {
+        mBitmaps = bitmaps.toArray(new Bitmap[bitmaps.size()]);
     }
 
     public  Bitmap createGroupFace(int type, Context context,
