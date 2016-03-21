@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="GroupView">
-        <attr name="viewType" format="enum">
+        <attr name="type" format="enum">
             <enum name="circle" value="1" />
             <enum name="square" value="2" />
         </attr>

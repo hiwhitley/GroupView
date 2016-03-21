@@ -28,16 +28,22 @@ public class MainActivity extends AppCompatActivity {
         mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
 
         bitmapList.add(BitmapFactory.decodeResource(getResources(), R.drawable.face));
-        bitmapList.add(BitmapFactory.decodeResource(getResources(), R.drawable.face));
-        bitmapList.add(BitmapFactory.decodeResource(getResources(), R.drawable.face));
 
         mGroupView = (GroupView) findViewById(R.id.gv_face4);
         mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
         mGroupView = (GroupView) findViewById(R.id.gv_face5);
         mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
+        mGroupView = (GroupView) findViewById(R.id.gv_face6);
+        mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
 
         bitmapList.add(BitmapFactory.decodeResource(getResources(), R.drawable.face));
-        mGroupView = (GroupView) findViewById(R.id.gv_face6);
+        mGroupView = (GroupView) findViewById(R.id.gv_face7);
+        mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
+        mGroupView = (GroupView) findViewById(R.id.gv_face8);
+        mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
+
+        bitmapList.add(BitmapFactory.decodeResource(getResources(), R.drawable.face));
+        mGroupView = (GroupView) findViewById(R.id.gv_face9);
         mGroupView.setImageBitmaps(bitmapList.toArray(new Bitmap[bitmapList.size()]));
 
     }

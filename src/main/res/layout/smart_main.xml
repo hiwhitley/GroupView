@@ -15,8 +15,7 @@
             android:layout_height="100dp"
             android:layout_marginTop="10dp"
             app:padding="5dp"
-            app:backgroundGP="#562890"
-            app:viewType="square" />
+            app:type="square" />
 
         <com.hiwhitley.groupview.GroupView
             android:id="@+id/gv_face2"
@@ -26,7 +25,7 @@
             android:layout_marginTop="10dp"
             app:cornor="20dp"
             app:padding="5dp"
-            app:viewType="square" />
+            app:type="square" />
 
         <com.hiwhitley.groupview.GroupView
             android:id="@+id/gv_face3"
@@ -35,7 +34,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             app:padding="5dp"
-            app:viewType="circle" />
+            app:type="circle" />
     </LinearLayout>
 
     <LinearLayout
@@ -47,8 +46,8 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="10dp"
-            app:padding="5dp"
-            app:viewType="square" />
+            app:padding="8dp"
+            app:type="square" />
 
         <com.hiwhitley.groupview.GroupView
             android:id="@+id/gv_face5"
@@ -57,7 +56,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             app:padding="2dp"
-            app:viewType="circle" />
+            app:type="square" />
 
         <com.hiwhitley.groupview.GroupView
             android:id="@+id/gv_face6"
@@ -66,6 +65,39 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             app:padding="2dp"
-            app:viewType="circle" />
+            app:type="circle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.hiwhitley.groupview.GroupView
+            android:id="@+id/gv_face7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            app:backgroundGP="#1FEAE5"
+            app:cornor="10dp"
+            app:type="square" />
+
+        <com.hiwhitley.groupview.GroupView
+            android:id="@+id/gv_face8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:padding="3dp"
+            app:backgroundGP="#1FEAE5"
+            app:type="circle" />
+
+        <com.hiwhitley.groupview.GroupView
+            android:id="@+id/gv_face9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:backgroundGP="#12E82E"
+            app:padding="2dp"
+            app:type="circle" />
     </LinearLayout>
 </LinearLayout>

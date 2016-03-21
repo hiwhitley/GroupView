@@ -57,8 +57,8 @@ public class GroupView extends ImageView{
         for (int i = 0; i < n; i++) {
             int attr = a.getIndex(i);
             switch (attr) {
-                case R.styleable.GroupView_viewType:
-                    mViewType = a.getInt(attr, FACETYPE_CIRCLE);
+                case R.styleable.GroupView_type:
+                    mViewType = a.getInt(R.styleable.GroupView_type, FACETYPE_CIRCLE);
                     break;
                 case R.styleable.GroupView_cornor:
                     cornor = (int) a.getDimension(R.styleable.GroupView_cornor,0);
