@@ -6,7 +6,9 @@
             <enum name="square" value="2" />
         </attr>
         <attr name="padding" format="dimension" />
-        <attr name="cornor" format="dimension"/>
+        <attr name="cornor" format="dimension" />
+        <attr name="backgroundGP" format="reference|color" />
+
     </declare-styleable>
 
 </resources>

@@ -37,6 +37,7 @@ public class GroupView extends ImageView{
 
     private int mViewType;//默认圆形
     private Bitmap[] mBitmaps ;
+    private int background;
     public GroupView(Context context,Bitmap[] bitmaps) {
         super(context);
         this.mBitmaps = bitmaps;
@@ -64,6 +65,8 @@ public class GroupView extends ImageView{
                     break;
                 case R.styleable.GroupView_padding:
                     padding = (int) a.getDimension(R.styleable.GroupView_padding,3);
+                case R.styleable.GroupView_backgroundGP:
+                    background = a.getColor(R.styleable.GroupView_backgroundGP,Color.parseColor("#DDDFD4"));
                     break;
                 default:
                     break;
@@ -152,7 +155,7 @@ public class GroupView extends ImageView{
         Bitmap canvasBitmap = Bitmap.createBitmap(tempWidth, tempHeight,
                 Bitmap.Config.ARGB_8888);
         Canvas localCanvas = new Canvas(canvasBitmap);
-        localCanvas.drawColor(Color.parseColor("#DDDFD4"));
+        localCanvas.drawColor(background);
         JoinBitmaps.join(localCanvas, Math.min(tempWidth, tempHeight),
                 Arrays.asList(bitmapArray));
         return canvasBitmap;
@@ -186,7 +189,7 @@ public class GroupView extends ImageView{
         // 头像的数量
         int bitmapCount = paramList.length;
         Canvas localCanvas = new Canvas(canvasBitmap);
-        localCanvas.drawColor(Color.parseColor("#DDDFD4"));
+        localCanvas.drawColor(background);
         int colum = 0;
 
         if (bitmapCount > 1 && bitmapCount < 5) {

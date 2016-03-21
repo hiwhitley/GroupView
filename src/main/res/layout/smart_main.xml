@@ -15,6 +15,7 @@
             android:layout_height="100dp"
             android:layout_marginTop="10dp"
             app:padding="5dp"
+            app:backgroundGP="#562890"
             app:viewType="square" />
 
         <com.hiwhitley.groupview.GroupView
